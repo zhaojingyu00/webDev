@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'
-import './index.css'
+import './index.css';
+import Todolist from './Todolist/Todolist';
 
-//容器组件/UI组件(展示组件)
-// 智能组件/木偶组件
-
-//容器组件(container/pages)：逻辑、功能、页面
-// UI组件（components）：展示，返回React元素
-
+let id = 1234;
 ReactDOM.render(
-    <App />,
+    <Todolist/>,
     document.getElementById('root')
 )
