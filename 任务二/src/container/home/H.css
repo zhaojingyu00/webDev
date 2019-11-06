@@ -1,0 +1,15 @@
+.out{
+    width:350px;
+    height:30px;
+    border: black solid 1px;
+    background-color: white;
+    position: relative;
+    /* top:800px; */
+}
+.page{
+    width:20px;
+    height: 30px;
+    float: left;
+    background-color:gray;
+    margin-left: 10px;
+}
